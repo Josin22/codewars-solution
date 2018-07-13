@@ -67,3 +67,15 @@ function alphabetPosition(text) {
 }
 ```
 
+## [5 kyu] Where my anagrams at?
+```
+function anagrams(word, words) {
+  return words.filter(item => word.split("").sort().join("") === item.split("").sort().join(""))
+}
+```
+## [6 kyu] Find the missing term in an Arithmetic Progression
+```
+
+```
+
+
